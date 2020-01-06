@@ -351,6 +351,9 @@ h1 {
       to {
         -webkit-transform: translateX(0);
                 transform: translateX(0); } } }
+  @media (max-height: 600px) {
+    .header .navigation__item:not(:last-child) {
+      margin-bottom: 20px; } }
 
 .section-about {
   padding: 100px 20px; }
