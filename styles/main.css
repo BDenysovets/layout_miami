@@ -18,6 +18,10 @@ h1 {
   color: #fff;
   -webkit-transition: background-image 0.5s;
   transition: background-image 0.5s; }
+  .header--closed {
+    background-image: url("../images/header.png"); }
+  .header--opened {
+    background-image: url("../images/header-col.png"); }
   .header__wrapper {
     max-width: 1017px;
     margin: 0 auto;
@@ -257,10 +261,6 @@ h1 {
           text-align: left;
           padding: 0; } }
   @media (max-width: 670px) {
-    .header--closed {
-      background-image: url("../images/header.png"); }
-    .header--opened {
-      background-image: url("../images/header-col.png"); }
     @-webkit-keyframes navDisAppearence {
       to {
         -webkit-transform: translateX(-300px);
