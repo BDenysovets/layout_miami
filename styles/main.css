@@ -393,7 +393,10 @@ ul {
       margin-bottom: 20px; } }
 
 .section-about {
-  padding: 100px 20px; }
+  padding: 75px 20px; }
+  @media (max-width: 790px) {
+    .section-about {
+      padding: 60px 20px; } }
   .section-about__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -421,8 +424,6 @@ ul {
     .section-about__title {
       margin-bottom: 50px; } }
   @media (max-width: 790px) {
-    .section-about {
-      padding: 64px 20px; }
     .section-about__title {
       font-size: 36px; } }
 
@@ -444,7 +445,10 @@ ul {
     font-weight: bold; }
 
 .gallery {
-  padding: 50px 20px; }
+  padding: 75px 20px; }
+  @media (max-width: 790px) {
+    .gallery {
+      padding: 60px 20px; } }
 
 .location-list {
   margin-top: 60px; }
@@ -507,6 +511,9 @@ ul {
 
 .consultation {
   padding: 75px 20px; }
+  @media (max-width: 790px) {
+    .consultation {
+      padding: 60px 20px; } }
   .consultation__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -528,8 +535,6 @@ ul {
     color: #3e3e3e;
     line-height: 27px; }
   @media (max-width: 790px) {
-    .consultation {
-      padding: 0 20px; }
     .consultation__wrapper {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -630,6 +635,9 @@ ul {
 
 .testimonials {
   padding: 75px 20px; }
+  @media (max-width: 790px) {
+    .testimonials {
+      padding: 60px 20px; } }
   .testimonials__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -676,9 +684,6 @@ ul {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; } }
-  @media (max-width: 790px) {
-    .testimonials {
-      padding: 60px 20px; } }
   @media (max-width: 390px) {
     .testimonials__item {
       width: 100%;
@@ -686,6 +691,9 @@ ul {
 
 .contact {
   padding: 75px 20px; }
+  @media (max-width: 790px) {
+    .contact {
+      padding: 60px 20px; } }
   .contact__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -698,8 +706,6 @@ ul {
     -ms-flex-preferred-size: 41%;
         flex-basis: 41%; }
   @media (max-width: 790px) {
-    .contact {
-      padding: 0 20px; }
     .contact__wrapper {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
