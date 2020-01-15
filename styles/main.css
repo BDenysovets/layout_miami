@@ -17,11 +17,15 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit; }
+  color: inherit;
+  outline: none; }
 
 ul {
   list-style-type: none;
   padding: 0; }
+
+button {
+  outline: none; }
 
 .section-title {
   font-weight: bold;
@@ -201,7 +205,7 @@ ul {
       background-color: #fff;
       -webkit-transition: width 0.3s;
       transition: width 0.3s; }
-    .header .call-list__item:hover::after {
+    .header .call-list__item:hover::after, .header .call-list__item:active::after {
       width: 100%; }
     .header .call-list__link {
       letter-spacing: 2px;
